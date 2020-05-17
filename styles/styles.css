@@ -7,7 +7,7 @@ nav{
   background: #222;
   color: #fff;
   height: 60px;
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -40,7 +40,7 @@ section{
   justify-content: center;
   align-items: center;
   flex-direction:column;
-  height: 100%;
+  min-height: 100%;
   color:#fff;
 }
 
@@ -134,14 +134,14 @@ p {
   }
 }
 
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
   p {
     font-size: large;
   }
-}
-
+} */
+/* 
 @media (min-width: 500px) and (min-height: 300px) {
     p {
       font-size: 2vh;
     }
-}
+} */
