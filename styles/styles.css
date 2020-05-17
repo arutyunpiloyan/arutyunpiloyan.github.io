@@ -7,7 +7,7 @@ nav{
   background: #222;
   color: #fff;
   height: 60px;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   display: flex;
   justify-content: center;
