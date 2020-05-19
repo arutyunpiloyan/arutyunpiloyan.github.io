@@ -1,7 +1,4 @@
 /* ---Image overlay--- */
-#gallery {
-  padding-top: 60px;
-}
 
 .img-wrapper {
   position: relative;
@@ -18,7 +15,7 @@
   height: 300px;
   object-fit: cover;
   border-radius: 20px;
-object-position: 50% 15%
+  object-position: 50% 15%
 }
 
 .img-overlay {

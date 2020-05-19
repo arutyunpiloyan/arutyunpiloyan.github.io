@@ -32,12 +32,11 @@ nav ul li{
 }
 
 h1 {
-  width: 100%;
   text-align: center;
-  margin: 20px;
   font-size: 5vw;
   color: black;
   font-weight: 600;
+  border-bottom: 2px solid rgb(255, 115, 0);
 }
 
 h3 {
@@ -54,20 +53,16 @@ section{
 }
 
 .section-header {
-  width: 100%;
   text-align: center;
-  margin: 30px 0;
+  margin: 80px 0 10px 0;
   font-size: 36px;
   font-weight: 400;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
 
-.section-header-underline {
-  border: 1px solid #222;
-  width: 3rem;
-  margin: 0 auto;
-  margin-bottom: 30px;
+.section-header {
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 #page1 {
@@ -77,7 +72,6 @@ section{
   align-items: center;
   bottom: 0;
 }
-
 
 #home {
   padding-top: 60px;
@@ -151,6 +145,8 @@ p {
   height: 100%;
 }
 
+/* PAGE 3 */
+
 #page3 {
   background-color: rgb(128, 128, 128);
 }
@@ -172,11 +168,18 @@ a:hover {
   font-size: 17px;
 }
 
+/* PAGE 4 */
+
 #page4 {
   background-color: rgb(66, 66, 66);
 }
 
-#page4 h1, .video p {
+#page4 h1 {
+  color: rgb(240, 240, 240);
+  border-bottom: 2px solid rgb(240, 240, 240);
+}
+
+.video p {
   color: rgb(240, 240, 240);
 }
 
@@ -188,9 +191,9 @@ a:hover {
   color: rgb(240, 240, 240);
 }
 
-#page4 .section-header-underline {
+/* #page4 .section-header-underline {
   border: 1px solid rgb(240, 240, 240);
-}
+} */
 /* PAGE 5 */
 
 #page5 {
@@ -199,11 +202,13 @@ a:hover {
 
 #page5 h1 {
   color: rgb(240, 240, 240);
+  border-bottom: 2px solid rgb(240, 240, 240);
+
 }
 
-#page5 .section-header-underline {
+/* #page5 .section-header-underline {
   border: 1px solid rgb(240, 240, 240);
-}
+} */
 
 .media {
   display: flex;
@@ -214,6 +219,22 @@ a:hover {
 .media i {
   font-size: 5ex;
   margin: 20px;
+}
+
+#facebook:hover {
+  color: rgb(80, 127, 221);
+}
+
+#youtube:hover {
+  color: #FF0000;
+}
+
+#insta:hover {
+  color: #9c47fc;
+  display: block;
+  background: -webkit-linear-gradient(234deg, #285AEB ,#b92b72, #fdf497);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* END PAGE 5  */
