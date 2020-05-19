@@ -1,5 +1,4 @@
 // Gallery image hover
-
 $(".img-wrapper").hover(
   function () {
     $(this).find(".img-overlay").animate({ opacity: 0.4 }, 600);
