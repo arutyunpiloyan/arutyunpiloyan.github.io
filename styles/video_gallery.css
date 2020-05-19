@@ -35,12 +35,6 @@ figure iframe {
   border-radius: 20px;
 }
 
-.col-sm-4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #page2 {
   display: flex;
   justify-content: center;
