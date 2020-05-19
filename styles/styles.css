@@ -1,6 +1,7 @@
 html, body{
   margin:0;
   height:100%;
+  width: 100%;
 }
 
 nav{
@@ -43,6 +44,23 @@ section{
   flex-direction:column;
   min-height: 100%;
   color:#fff;
+}
+
+.section-header {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.section-header-underline {
+  border: 1px solid #222;
+  width: 3rem;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 #logo {
@@ -136,12 +154,51 @@ p {
   background-color: rgb(128, 128, 128);
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(149, 149, 149);
+}
+
+#gallery-link {
+  color: black;
+}
+
+#gallery-link p {
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
 #page4 {
   background-color: rgb(66, 66, 66);
 }
 
+/* PAGE 5 */
+
 #page5 {
   background-color: rgb(0, 0, 0);
+}
+
+#page5 h1 {
+  color: rgb(206, 206, 206);
+}
+
+#page5 .section-header-underline {
+  border: 1px solid rgb(206, 206, 206);
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media i {
+  font-size: 5ex;
+  margin: 20px;
 }
 
 @media screen and (max-width: 700px) {
