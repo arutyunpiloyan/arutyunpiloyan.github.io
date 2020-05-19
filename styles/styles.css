@@ -221,22 +221,6 @@ a:hover {
   margin: 20px;
 }
 
-#facebook:hover {
-  color: rgb(80, 127, 221);
-}
-
-#youtube:hover {
-  color: #FF0000;
-}
-
-#insta:hover {
-  color: #9c47fc;
-  display: block;
-  background: -webkit-linear-gradient(234deg, #285AEB ,#b92b72, #fdf497);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 /* END PAGE 5  */
 
 @media screen and (max-width: 700px) {
