@@ -61,24 +61,10 @@
   padding: 5px;
 }
 
-#nextButton {
+#nextButton, #prevButton {
   color: #fff;
   font-size: 30px;
   transition: opacity 0.8s;
-}
-
-#nextButton:hover {
-    opacity: 0.7;
-}
-
-#prevButton {
-  color: #fff;
-  font-size: 30px;
-  transition: opacity 0.8s;
-}
-
-#prevButton:hover {
-    opacity: 0.7;
 }
 
 #exitButton {
@@ -90,25 +76,15 @@
   right: 15px;
 }
 
-#exitButton:hover {
-    opacity: 0.7;
+#nextButton:hover, #prevButton:hover, #exitButton:hover {
+  opacity: 0.7;
 }
 
 /* ---End Image overlay--- */
 
 /* Responsive for different screens */
-
-
 @media screen and (min-width:768px) {
-    #exitButton, #nextButton {
-      font-size: 30px;
-    };
-
-    #prevButton {
-      font-size: 30px;
-    }
-}
-
-#back-home {
-  font-size: 20px;
+  #exitButton, #nextButton, #prevButton {
+    font-size: 30px;
+  };
 }
