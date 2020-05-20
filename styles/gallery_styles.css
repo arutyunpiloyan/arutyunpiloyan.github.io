@@ -1,5 +1,4 @@
 /* ---Image overlay--- */
-
 .img-wrapper {
   position: relative;
   margin-top: 15px;
@@ -14,7 +13,6 @@
   width: 300px;
   height: 300px;
   object-fit: cover;
-  border-radius: 20px;
   object-position: 50% 15%
 }
 
@@ -43,7 +41,7 @@
   width: 100%;
   height: 100%;
   position: fixed;
-  top: 0;
+  top: 30px;
   left: 0;
   display: flex;
   justify-content: center;
@@ -77,7 +75,6 @@
   color: #fff;
   font-size: 30px;
   transition: opacity 0.8s;
-
 }
 
 #prevButton:hover {
@@ -89,7 +86,7 @@
   font-size: 2em;
   transition: opacity 0.8s;
   position: absolute;
-  top: 15px;
+  top: 35px;
   right: 15px;
 }
 
