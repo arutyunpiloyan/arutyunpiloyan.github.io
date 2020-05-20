@@ -1,31 +1,41 @@
 html, body{
   margin:0;
-  height:100%;
+  height: 100%;
   width: 100%;
-  font-family: 'Lucida Sans Unicode' sans-serif;
+  font-family: sans-serif;
 }
 
-nav{
+header {
+  position: fixed;
+  width:  100%;
+  z-index: 999;
+}
+
+li {
+  font-weight: 600;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background: #222;
   color: #fff;
   height: 60px;
-  position: fixed;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   z-index: 1;
+  flex-wrap: nowrap;
 }
 
-#navigation {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 0;
+nav ul {
+  background: #222;
 }
 
-nav ul li{
+button {
+  color: white;
+}
+
+nav ul li {
   cursor: pointer;
   display: block;
   padding: 10px;
@@ -35,12 +45,26 @@ h1 {
   text-align: center;
   font-size: 5vw;
   color: black;
-  font-weight: 600;
-  border-bottom: 2px solid rgb(255, 115, 0);
+  font-weight: 700;
 }
 
 h3 {
   color: black;
+}
+
+.navbar-brand {
+  padding: 0;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-brand {
+  max-width: 20vw;
+  max-height: 50px;
+  object-fit: contain;
+  margin-right: 5px;
 }
 
 section{
@@ -56,27 +80,23 @@ section{
   text-align: center;
   margin: 80px 0 10px 0;
   font-size: 36px;
-  font-weight: 400;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
 
-.section-header {
-  border-bottom: 2px solid rgb(0, 0, 0);
+#page1, #page2, #page3, #page4, #page5 {
+  min-height: 100vh;
+  min-width: 100%;
 }
 
 #page1 {
   background-color: rgb(228, 228, 228);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 0;
 }
 
 #home {
   padding-top: 60px;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,9 +211,6 @@ a:hover {
   color: rgb(240, 240, 240);
 }
 
-/* #page4 .section-header-underline {
-  border: 1px solid rgb(240, 240, 240);
-} */
 /* PAGE 5 */
 
 #page5 {
@@ -203,12 +220,7 @@ a:hover {
 #page5 h1 {
   color: rgb(240, 240, 240);
   border-bottom: 2px solid rgb(240, 240, 240);
-
 }
-
-/* #page5 .section-header-underline {
-  border: 1px solid rgb(240, 240, 240);
-} */
 
 .media {
   display: flex;
@@ -229,11 +241,27 @@ a:hover {
     margin: 5px;
   }
 
+  /* .navbar-brand {
+    width: 100px;
+    height: 100px;
+  } */
+
   nav ul li {
-    font-size: 13px;
+    font-size: 10px;
+    padding: 3px;
   }
 
   p {
     font-size: 12px;
   }
+
+  /* nav {
+    height: 100px;
+    display: flex;
+
+  } */
+
+  /* .nav {
+    justify-content: center;
+  } */
 }
