@@ -5,6 +5,15 @@ html, body{
   font-family: sans-serif;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  height: 100%;
+}
+
 header {
   position: fixed;
   width:  100%;
@@ -54,7 +63,7 @@ h3 {
 
 .navbar-brand {
   padding: 0;
-  /* height: 100%; */
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,7 +99,8 @@ section{
 }
 
 #page1 {
-  background-color: rgb(228, 228, 228);
+  /* background-color: rgb(228, 228, 228); */
+  background-color: white;
 }
 
 #home {
@@ -126,7 +136,8 @@ section{
 /* SECOND PAGE */
 
 #page2 {
-  background-color: rgb(187, 184, 184);
+  /* background-color: rgb(187, 184, 184); */
+  background-color: rgb(236, 236, 236);
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -168,7 +179,8 @@ p {
 /* PAGE 3 */
 
 #page3 {
-  background-color: rgb(128, 128, 128);
+  background-color: rgb(221, 221, 221);
+
 }
 
 a {
@@ -191,12 +203,7 @@ a:hover {
 /* PAGE 4 */
 
 #page4 {
-  background-color: rgb(66, 66, 66);
-}
-
-#page4 h1 {
-  color: rgb(240, 240, 240);
-  border-bottom: 2px solid rgb(240, 240, 240);
+  background-color: rgb(195, 195, 195);
 }
 
 .video p {
@@ -214,12 +221,8 @@ a:hover {
 /* PAGE 5 */
 
 #page5 {
-  background-color: rgb(0, 0, 0);
-}
+  background-color: rgb(161, 161, 161);
 
-#page5 h1 {
-  color: rgb(240, 240, 240);
-  border-bottom: 2px solid rgb(240, 240, 240);
 }
 
 .media {
@@ -231,6 +234,11 @@ a:hover {
 .media i {
   font-size: 5ex;
   margin: 20px;
+  color: black;
+}
+
+.media i:hover {
+  color: rgb(87, 87, 87);
 }
 
 /* END PAGE 5  */
@@ -241,11 +249,6 @@ a:hover {
     margin: 5px;
   }
 
-  /* .navbar-brand {
-    width: 100px;
-    height: 100px;
-  } */
-
   nav ul li {
     font-size: 10px;
     padding: 3px;
@@ -254,14 +257,4 @@ a:hover {
   p {
     font-size: 12px;
   }
-
-  /* nav {
-    height: 100px;
-    display: flex;
-
-  } */
-
-  /* .nav {
-    justify-content: center;
-  } */
 }
