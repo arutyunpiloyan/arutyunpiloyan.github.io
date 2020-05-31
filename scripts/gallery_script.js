@@ -1,11 +1,11 @@
 // Gallery image hover
-$(".img-wrapper").hover(
-  function () {
-    $(this).find(".img-overlay").animate({ opacity: 0.4 }, 600);
-  }, function () {
-    $(this).find(".img-overlay").animate({ opacity: 0 }, 600);
-  }
-);
+// $(".img-wrapper").hover(
+//   function () {
+//     $(this).find(".img-overlay").animate({ opacity: 0.4 }, 600);
+//   }, function () {
+//     $(this).find(".img-overlay").animate({ opacity: 0 }, 600);
+//   }
+// );
 
 // Lightbox
 var $overlay = $('<div id="overlay"></div>');
